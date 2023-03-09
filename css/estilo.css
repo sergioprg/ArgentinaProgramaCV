@@ -1,0 +1,37 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+header {
+
+    background-color: rgba(211, 211, 211, 0.908);
+}
+
+body {
+
+    background-color: black;
+}
+.curriculum {
+text-align: right;
+}
+
+.nombrecompleto{
+text-align: left;
+}
+
+.seccionizquierda {
+    background-color: rgb(204, 194, 155);
+}
+
+.seccionderecha {
+    background-color: aqua;
+}
+
+.tituloperfil {
+    text-align: left;
+}
+
+.itemsperfil p {
+    text-align: left;
+}
