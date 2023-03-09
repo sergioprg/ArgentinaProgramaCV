@@ -42,6 +42,11 @@ body {
     padding-bottom: 12px;
 }
 
+#spanperfil {
+    font-size: medium; 
+    color: tomato;
+}
+
 .seccionderecha {
     background-color: rgb(202, 203, 203);
     border-top-width: 12px;
