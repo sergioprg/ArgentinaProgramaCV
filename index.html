@@ -1,73 +1,317 @@
 <!DOCTYPE html>
+
 <html lang="es">
 
 <head>
+
     <meta charset="UTF-8">
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;600&display=swap" rel="stylesheet">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/estilo.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
     <title>Curriculum Vitae</title>
+
 </head>
 
 <body>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
 
     <header>
 
-        <section class="container-fluid">
-            <div class="row align-items-start">
-                <div class="curriculum col-md-6  col-xs-12">
-                    <h1>Currículum Vitae: </h1>
+        <section class="container-fluid contenedorheader">
+
+            <div class="row">
+                <div class="marcoheader ">
+                    <h1 id="headerh1nombre">Ernesto Guevara Fontanarrosa</h1>
+                    <h5 id="headerh5profesion">Ingeniero en Seguridad Informática</h5>
                 </div>
-                <div class="nombrecompleto col-md-6 col-xs-12">
-                    <h1> Ernesto Guevara </h1>
+            
+                <div class="row">
+                    <div class="foto">
+                        <img src="img/ErnestoGuevara.jpg" alt="Foto Personal" >
+                    </div>
                 </div>
             </div>
+
         </section>
 
     </header>
 
     <main>
 
-        <section class="container-fluid text-center">
-            <div class="row align-items-start">
-                <div class="seccionizquierda col-lg-9 col-md-9 col-xs-12">
-                    <div class="contenedorperfil container-fluid">
-                        <div class="tituloperfil row align-items-start">
-                            <h2>Perfil</h2>
-                        </div>
-                        <div class="itemsperfil row align-items-start">
-                            <div class="itempercolum1 col-sm-10">
-                                <p>
-                                    "Profesional de sistemas especializado en seguridad informática y gestión de riesgos con
-                                    amplio conocimiento en diseño, implementación y mantenimiento de sistemas de seguridad
-                                    informática. Capacidad para desarrollar políticas de seguridad informática y liderar
-                                    equipos. Habilidad para establecer alianzas estratégicas y resolver problemas."
-                                </p>
+        <section class="container-fluid contenedormain">
+
+            <div class="row">
+
+                <div class="seccionizquierda col col-lg-9 col-md-9 col-12 order-lg-1 order-md-1 order-2">
+
+                    <div class="container-fluid">
+
+                        <div class="perfil">
+
+                            <div class="row">
+
+                                <h2>Perfil</h2>
+                                <hr>
+
                             </div>
-                            <div class="itempercolum2 col-sm-2">
-                                <i class="fa-sharp fa-solid fa-circle-info"></i>
+
+                            <div class="row">
+
+
+                                <div class="col col-sm-10">
+
+                                     <p id="demo"> Profesional de sistemas especializado en seguridad informática y gestión de
+                                        riesgos con
+                                        amplio conocimiento en diseño, implementación y mantenimiento de sistemas de
+                                        seguridad
+                                        informática. Capacidad para desarrollar políticas de seguridad informática y
+                                        liderar
+                                        equipos. Habilidad para establecer alianzas estratégicas y resolver problemas.
+                                        <span style="font-size: medium; color: tomato;" onclick="document.getElementById('demo').innerHTML = 'Profesional de sistemas con experiencia en seguridad informática y gestión de riesgos. Amplio conocimiento en el diseño, implementación y mantenimiento de sistemas de seguridad informática, así como en la identificación y mitigación de vulnerabilidades y amenazas. Capacidad para desarrollar y aplicar políticas de seguridad informática en consonancia con los estándares y regulaciones internacionales. Habilidad para trabajar en equipo, liderando y motivando al mismo, y estableciendo alianzas estratégicas con otras áreas para garantizar la integridad, confidencialidad y disponibilidad de los sistemas de información. Orientado a resultados y con habilidades de resolución de problemas.'"> Haga click aquí para ampliar </span></p>
+                                
+                                </div>
+
+                                <div class="col col-sm-2">
+
+                                    <!--
+                                    <i class="fa-solid fa-caret-down fa-xl" onclick="document.getElementById('demo').innerHTML = 'Profesional de sistemas con experiencia en seguridad informática y gestión de riesgos. Amplio conocimiento en el diseño, implementación y mantenimiento de sistemas de seguridad informática, así como en la identificación y mitigación de vulnerabilidades y amenazas. Capacidad para desarrollar y aplicar políticas de seguridad informática en consonancia con los estándares y regulaciones internacionales. Habilidad para trabajar en equipo, liderando y motivando al mismo, y estableciendo alianzas estratégicas con otras áreas para garantizar la integridad, confidencialidad y disponibilidad de los sistemas de información. Orientado a resultados y con habilidades de resolución de problemas.'"></i>
+                                    -->
+                                    
+                                </div>
+
                             </div>
+
                         </div>
+                        
+                        <div class="experiencia">
+
+                            <div class="row">
+
+                                <h2>Experiencia</h2>
+                                <hr>
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col"> <!--Acá reemplazariamos con una tabla-->
+
+                                        <p>Fila 1</p>
+                                        <p>Fila 2</p>
+                                        <p>Fila 3</p>
+                                        <p>Fila 4</p>
+                                        <p>Fila 5</p>
+                                        <p>Fila 6</p>
+
+                                </div>
+
+                                <div class="col">
+
+                                    <i class="fa-solid fa-caret-down fa-xl"></i>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                            
+                        <div class="educacion">
+
+                            <div class="row">
+
+                                <h2>Educacion</h2>
+                                <hr>
+
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col"> <!--Acá reemplazariamos con una tabla-->
+
+                                            <p>Fila 1</p>
+                                            <p>Fila 2</p>
+                                            <p>Fila 3</p>
+                                            <p>Fila 4</p>
+                                            <p>Fila 5</p>
+                                            <p>Fila 6</p>
+
+                                </div>
+
+                                <div class="col">
+
+                                    <i class="fa-solid fa-caret-down fa-xl"></i>
+
+                                </div>
+
+                            </div>
+                        
+                        </div>
+                        
+                        <div class="habilidades">
+
+                            <div class="row">
+
+                                <h2>Habilidades</h2>
+                                <hr>
+
+                            </div>
+
+                            <div class="row">
+
+                                <div class="col">
+
+                                                <p>Fila 1</p>
+                                                <p>Fila 1</p>
+                                                <p>Fila 2</p>
+                                                <p>Fila 3</p>
+                                                <p>Fila 4</p>
+                                                <p>Fila 5</p>
+                                                <p>Fila 6</p>
+
+                                </div>
+
+                                <div class="col">
+
+                                    <i class="fa-solid fa-caret-down fa-xl"></i>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
                     </div>
-        
                 </div>
-                <div class="seccionderecha col-lg-3 col-md-3 col-xs-12">
-                    <h2>Datos Personales</h2>
+
+                <div class="seccionderecha col col-lg-3 col-md-3 col-12 order-lg-2 order-md-2 order-1">
+
+                    <div class="container">
+
+                        <div class="row">
+
+                            <div class="datosPersonales">
+
+                                <div class="row">
+
+                                    <h2>Datos Personales</h2>
+                                    <hr>
+
+                                </div>
+
+                                <div class="row">
+
+                                    <p><b>Nombre y Apellido: </b></p>
+                                    <p>Ernesto Guevara Fontanarrosa</p>
+
+                                </div>
+
+                                <div class="row">
+
+                                    <p><b>Documento de Identidad: </b></p>
+                                    <p>32.426.784</p>
+
+                                </div>
+
+                                <div class="row">
+
+                                    <p><b>Género: </b></p>
+                                    <p>Masculino</p>
+
+                                </div>
+
+                                <div class="row">
+
+                                    <p><b>Fecha de Nacimiento: </b></p>
+                                    <p>15/05/1986</p>
+                                
+                                </div>
+
+                                <div class="row">
+
+                                    <p><b>Edad: </b></p>
+                                    <p>20 Años</p>
+                                
+                                </div>
+
+                                <div class="row">
+
+                                    <p><b>Nacionalidad: </b></p>
+                                    <p>Argentina</p>
+                                
+                                </div>
+
+                                <div class="row">
+
+                                    <p><b>Correo electrónico: </b></p>
+                                    <p>eguevara@argentina.gob.ar</p>
+
+                                </div>
+
+                                <div class="row">
+
+                                    <p><b>Teléfono: </b></p>
+                                    <p>+54 9 11 4588-1469</p>
+                                
+                                </div>
+
+                                <div class="row">
+
+                                    <p><b>Dirección: </b></p>
+                                    <p>Av. La Gallardeta 1836</p>
+                                
+                                </div>
+
+
+                                <div class="row">
+
+                                    <p><b>Código Postal: </b></p>
+                                    <p>1005</p>
+                                
+                                </div>
+
+                                <div class="row">
+
+                                    <p><b>Localidad: </b> Capital Federal</p>
+                                
+                                </div>
+
+                            </div>
+                            
+                        </div>
+
+                    </div>
+
                 </div>
             </div>
-        </section>
 
+        </section>
 
     </main>
 
     <footer>
 
+        <p>Copyright 2023 - Todos los derechos reservados por Argentina Programa 4.0</p>
+
     </footer>
 
+
+
 </body>
+
+
 
 </html>

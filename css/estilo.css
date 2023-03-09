@@ -1,37 +1,70 @@
 *{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+    font-family: 'Work Sans', sans-serif;
 }
 
 header {
-
-    background-color: rgba(211, 211, 211, 0.908);
+    background-color: rgb(55, 57, 57);
 }
+
+.marcoheader {
+    padding: 20px;
+}
+
+.contenedorheader {
+border: 7px solid blue;
+text-align:right;
+}
+
+#headerh1curriculum {
+ font-size: 40px;
+}
+
+#headerh1nombre {
+    color:rgb(202, 209, 242);
+}
+
+#headerh5profesion {
+    color:rgb(202, 209, 242);
+}
+
 
 body {
 
-    background-color: black;
-}
-.curriculum {
-text-align: right;
 }
 
-.nombrecompleto{
-text-align: left;
+.contenedormain {
+
 }
 
-.seccionizquierda {
-    background-color: rgb(204, 194, 155);
+.seccionizquierda{
+    border-top-width: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
 }
 
 .seccionderecha {
-    background-color: aqua;
+    background-color: rgb(202, 203, 203);
+    border-top-width: 12px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+
 }
 
-.tituloperfil {
-    text-align: left;
+p {
+    font-size: large;
 }
 
-.itemsperfil p {
-    text-align: left;
+
+img {
+    border-radius: 130px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
 }
+
+footer {
+    background-color: rgb(55, 57, 57);
+    color:rgb(202, 209, 242);
+    text-align: center;
+}
+
